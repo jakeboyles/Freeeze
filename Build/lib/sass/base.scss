@@ -1,0 +1,212 @@
+/******************************************************************
+Site Name: 
+Author: CreativeFuse Initiative 
+
+Stylesheet: Base Mobile Styles
+
+Be light and don't over style since everything here will be
+loaded by mobile devices. You want to keep it as minimal as
+possible.
+
+"The absence of a media query is your first media query"
+
+******************************************************************/
+
+body {
+	margin:0;
+	padding:0;
+}
+
+header {
+	height:70px;
+  background-image:url("../images/headerbg.png"); 
+  background-repeat:repeat-x;
+  width:100%;
+}
+
+menu, ol, ul {
+    padding: 0 0 0 0px;
+    margin:0px;
+}
+
+.center {
+	width:90%;
+	margin:0px auto;
+}
+
+h1,h2,h3,h4,h5 {
+	margin:0px;
+	padding:0px;
+}
+
+.logo {
+	margin:0px auto;
+	padding-top:10px;
+
+}
+
+#menuButton {
+	background-image:url("../images/menubutton.png");
+	width:44px;
+	height:40px;
+	border:none;
+	display:block;
+	float:left;
+	margin-top:13px;
+}
+
+.logoDiv {
+	width:153px;
+	margin:0px auto;
+}
+
+#addMenu {
+   	background-image: url("../images/add.png");
+    border: medium none;
+    float: right;
+    height: 40px;
+    margin-top: -54px;
+    width: 44px;
+}
+
+.toDo {
+height:40px;
+width:100%;
+  background-image: -moz-linear-gradient( 90deg, rgb( 203, 232, 250 ) 0%, rgb( 200, 231, 244 ) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb( 203, 232, 250 ) 0%, rgb( 200, 231, 244 ) 100%);
+}
+
+.toDo h1 {
+    color: #565353;
+    font-family: "bariol_regularregular";
+    font-size: 180%;
+    font-weight: normal;
+    padding-left: 5%;
+    background-image:url("../images/todoBG.png");
+    background-repeat:no-repeat;
+    background-position: 94.2% center;
+}
+
+.list-item {
+background-image:url("../images/itemBG.png");
+background-repeat:repeat-x;
+height:40px;
+width:100%;
+float:left;
+}
+
+.alert {
+    border: medium none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float:left;
+    width: 2.3%;
+}
+
+.redAlert {
+    background-image: url("../images/redAlert.png");
+    background-repeat: repeat-x;
+}
+
+.darkOrangeAlert {
+    background-image: url("../images/darkOrange.png");
+    background-repeat: repeat-x;
+}
+
+.yellowAlert {
+    background-image: url("../images/yellowBG.png");
+    background-repeat: repeat-x;
+}
+
+.greenAlert {
+    background-image: url("../images/greenBG.png");
+    background-repeat: repeat-x;
+}
+
+.list-item p{
+   float: left;
+    font-family: "bariol_regularregular";
+    font-size: 70%;
+    margin-left: 3%;
+    margin-top: 5px;
+    width: 60%;
+}
+
+.projectName {
+	float:right;
+	width:30%;
+	border-left:2px solid #d2d5d7;
+	height:40px;
+}
+
+.projectName p {
+margin-left:5%;
+	width:95%;
+}
+
+.ui-state-disabled {
+    background-color: #EBF3F7;
+    background-image: none;
+}
+
+.ui-state-disabled h3 {
+	margin-top:7px;
+	font-family: "bariol_regularregular";
+	font-weight:normal;
+	font-size:120%;
+	margin-left:2.3%;
+}
+
+.adding h2 {
+		font-family: "bariol_regularregular";
+font-weight:normal;
+margin-bottom:10px;
+}
+
+.adding {
+	width:100%;
+	margin-bottom:15px;
+	float:left;
+}
+
+.adding form,.adding label {
+	clear:left;
+	float:left;
+	margin-bottom:10px;
+}
+
+.adding label {
+	margin-right:20px;
+	font-family: "bariol_regularregular";
+
+}
+
+.adding input {
+	margin-bottom:10px;
+	margin-top:3px;
+}
+
+.submit {
+clear:both;
+float:left;
+}
+
+.addToDo {
+	margin-top:20px;
+}
+
+.projectName a {
+    color: #000000;
+    float: left;
+    font-family: "bariol_regularregular";
+    margin-left: 3%;
+    margin-top: 9px;
+    text-decoration: none;
+    width: 95%;
+    font-size:70%;
+}
+
+.ui-state-disabled {
+	opacity:1 
+}
